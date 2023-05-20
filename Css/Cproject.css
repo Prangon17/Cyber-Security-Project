@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+	position: relative;
+	font-family: sans-serif;
+	font-weight: bolder ;
+	text-transform: uppercase;
+	font-size: 2em;
+	letter-spacing: 4px;
+	overflow: hidden;
+	background: linear-gradient(90deg, #e70404, #168600, #0a1a5f);
+	background-repeat: repeat;
+	background-size: 80%;
+	animation: animate 3s linear infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+	0% {
+	  background-position: -500%;
+	}
+	100% {
+	  background-position: 500%;
+	}
+  }
+
+
+body{
+	background-image: url(R.gif);
+	position: relative;
+	
+}
+
+
+.container {
+	margin:5% auto;
+	width: 40%;
+	text-align: left;
+	background-color: rgb(154, 161, 163);
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	background-color: seashell;
+  }
+  
+  textarea {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 3px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+  }
+  
+  button {
+	padding: 5px 10px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
+  .button1 {background-color: #4CAF50;} /* Green */
+  .button2 {background-color: #f44336;} /* Red */
+  .button3 {background-color: blue} /* Red */  
+  .button4 {background-color: rgb(94, 0, 117)} /* Yellow */  
+  
+  label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  button:hover {
+	background-color: #0062cc;
+  }
